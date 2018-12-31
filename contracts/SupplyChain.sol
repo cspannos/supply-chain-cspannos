@@ -99,9 +99,9 @@ contract SupplyChain {
        skuCount = 0;
   }
 
-  function addItem(string memory _name, uint _price) public returns(bool)
+  function addItem(string memory name, uint price) public returns(bool)
   {
-    items[skuCount] = Item({name: _name, sku: skuCount, price: _price, state: State.ForSale, seller: msg.sender, buyer: address(0)});
+    items[0] = Item({name: name, sku: skuCount, price: price, state: State.ForSale, seller: msg.sender, buyer: address(0)});
     skuCount = skuCount + 1;
     emit ForSale(skuCount);
     return true;

@@ -1381,12 +1381,12 @@
     "4447": {
       "events": {},
       "links": {},
-      "address": "0x093ef8A7776dc39b96D3427B0Af114739De58FEF",
-      "transactionHash": "0x0d48a90481c2a0cf48f023cd231a4b1cf701ac0b11a51bfc08711495dc648e8c"
+      "address": "0x327fdc4e673889fd40c49C3CEFf24519c1D77f76",
+      "transactionHash": "0x6c318258864308184b2b0ceff6a8401788bae007d5cdf873b06e6b65e0fc6659"
     }
   },
   "schemaVersion": "3.0.0",
-  "updatedAt": "2018-12-31T15:57:00.591Z",
+  "updatedAt": "2018-12-31T16:44:58.048Z",
   "devdoc": {
     "methods": {}
   },
